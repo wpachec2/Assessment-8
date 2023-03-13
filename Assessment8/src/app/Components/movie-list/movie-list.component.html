@@ -1,0 +1,10 @@
+<!--
+    The component displays each movie in a <section> element 
+    that displays the title and releaseYear property of each 
+    movie (using ngFor).
+-->
+
+<section *ngFor="let m of movies">
+    <h1>{{ m.title }}</h1>
+    <p>{{ m.releaseYear }}</p>
+</section>
